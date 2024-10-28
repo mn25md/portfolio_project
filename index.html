@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>石塚 結花のポートフォリオ</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.jsの読み込み -->
 </head>
 <body>
 
@@ -28,8 +29,10 @@
 <!-- プロフィールセクション -->
 <section id="about" class="section">
   <h2>プロフィール</h2>
-  <p>茨城県つくば市在住。1988年8月1日生。趣味は読書とスポーツ観戦です。</p>
-  <p>プログラミングを通じて業務の効率化と問題解決に取り組んでいます。</p>
+  <p>茨城県つくば市在住。1988年8月1日生（36歳）</p>
+  <p>現職で業務の効率化を図るためにExcel VBAを活用した経験から、プログラミングに対する興味を持つようになりました。
+  プログラミングを通じてシステムを利用する人々がより使いやすいと感じられるシステムの開発を目指し、顧客目線を大切にしたエンジニアになりたいと考えています。
+  </p>
 </section>
 
 <!-- 経歴セクション -->
@@ -56,10 +59,7 @@
 <!-- スキルセットセクション -->
 <section id="skills" class="section">
   <h2>スキルセット</h2>
-  <ul>
-    <li>HTML, CSS, JavaScript, Ruby, Ruby on Rails</li>
-    <li>GitHub, Excel VBAによる業務自動化</li>
-  </ul>
+  <canvas id="skillChart" width="400" height="400"></canvas> <!-- レーダーチャート表示エリア -->
 </section>
 
 <!-- プロジェクトセクション -->
